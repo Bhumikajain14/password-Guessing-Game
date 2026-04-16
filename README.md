@@ -1,24 +1,34 @@
 # password-Guessing-Game.
-🎮 I built a Password Guessing Game in Python! 🔐💻
+🎮 # 🔐 Password Guessing Game
 
-I wanted to create an interactive and fun Python project, so I developed a GUI-based game using Tkinter with advanced features:
+An interactive and creative GUI-based Password Guessing Game built using **Python & Tkinter**.  
+This project focuses on logic building, GUI design, and user engagement through sounds, timer, and difficulty levels.
 
-✨ Features:
+---
 
-Difficulty Levels: Easy, Medium, Hard
+## 🚀 Features
+- Easy / Medium / Hard difficulty levels  
+- Shuffled letter hints based on the correct answer  
+- Hint showing number of letters in the password  
+- 50 seconds countdown timer  
+- Limited attempts for each game  
+- Sound effects for welcome, win & lose  
+- Leaderboard showing top 5 scores  
+- Clean and attractive Tkinter GUI  
 
-Shuffled Hint Letters: Guess the secret word from shuffled letters
+---
 
-Word Length Display: Helps the player understand the word size
+## 🛠️ Technologies Used
+- Python  
+- Tkinter (GUI)  
+- Random Module  
+- Time Module  
 
-Timer & Limited Attempts: 50 seconds & 5 tries per game
+---
 
-Leaderboard: Tracks top 5 scores automatically
-
-Sound Effects: Welcome, Win, Lose + background music loop
-
-Multi-page GUI: Welcome → Game → End
-
-Username Display & Modern Layout
-
-🎯 This project helped me prac
+## ▶️ How to Run
+1. Clone the repository  
+2. Open the project folder  
+3. Run the main Python file  
+```bash
+python main.py
